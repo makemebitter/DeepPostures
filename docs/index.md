@@ -90,6 +90,10 @@ If you're hosting your site on GitHub Pages, [set up GitHub Pages and Jekyll loc
 
 Just the Docs is &copy; 2017-{{ "now" | date: "%Y" }} by [Patrick Marsceill](http://patrickmarsceill.com). -->
 
+### Models
+
+### Publications
+
 ### License
 
 DeepPostures is distributed by an [Apache-2.0 license](https://github.com/ADALabUCSD/DeepPostures/blob/master/LICENSE).
