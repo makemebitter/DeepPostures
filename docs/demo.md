@@ -1,11 +1,24 @@
 ---
 layout: default
-title: Demo
-nav_order: 2
+title: Demo and Videos
+nav_order: 1
 ---
 
-### Installation 
+# Demo and Videos
+{: .no_toc }
+
+Here are some videos.
+{: .fs-6 .fw-300 }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+
+## Installation 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZZQUnZs9p4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Usage
+## Usage
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vSkb0kDacjs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
