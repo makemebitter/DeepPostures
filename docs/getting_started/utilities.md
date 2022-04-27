@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Utilities
+title: Getting Started
 nav_order: 4
 has_children: true
-permalink: docs/utilities
+permalink: docs/getting_started
 ---
 
 # Utilities

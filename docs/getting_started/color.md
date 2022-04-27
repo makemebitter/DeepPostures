@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Color
-parent: Utilities
+parent: Getting Started
 ---
 
 # Color Utilities
