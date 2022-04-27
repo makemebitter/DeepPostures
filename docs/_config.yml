@@ -1,6 +1,6 @@
 # github-pages mandatory configuration
 domain: makemebitter.github.com
-url: https://makemebitter.github.com/
+url: https://makemebitter.github.com
 baseurl: /DeepPostures/
 repository: makemebitter/DeepPostures
 
