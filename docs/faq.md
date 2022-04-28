@@ -1,15 +1,18 @@
 ---
 layout: default
-title: Demo
-nav_order: 1
+title: FAQs
+nav_order: 9
 ---
 
-# FAQ
+# FAQs
 {: .no_toc }
 
 
-1. Q: What is light?
-    A: Electromagnetic radiation
+- **Q: My TensorFlow does not expect the model format.**
 
-2. Q: Who wants to build a snowman?
-    A: 
+    **A:** To use the library you will need specific versions of TensorFlow, please refer to [Getting Started]({{ site.baseurl }}{% link getting_started/dependencies.md %})
+
+- **Q: My TensorFlow does not expect the model format.**
+
+    **A:** To use the library you will need specific versions of TensorFlow, please refer to [Getting Started]({{ site.baseurl }}{% link getting_started/dependencies.md %})
+    

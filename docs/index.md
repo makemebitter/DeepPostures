@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-nav_order: 1
+nav_order: 0
 description: "Deep Learning Methods for Identifying Human Postures from Hip-Worn Accelerometer Data"
 permalink: /
 ---
@@ -12,92 +12,26 @@ permalink: /
 DeepPostures is a library containing deep learning methods for identifying human postures from hip-worn accelerometer data.
 {: .fs-6 .fw-300 }
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/ADALabUCSD/DeepPostures){: .btn .fs-5 .mb-4 .mb-md-0 } [Watch Demo]({{ site.baseurl }}{% link demo.md %}){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Get started now]({{ site.baseurl }}{% link getting_started/getting_started.md %}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/ADALabUCSD/DeepPostures){: .btn .fs-5 .mb-4 .mb-md-0 } [Watch Demos]({{ site.baseurl }}{% link demo.md %}){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
 ## About
+A brief introduction about the entire project. Figures showing what the problem is and how we approach them.
 
 
-
-## Getting started
-
-### Dependencies
-
-We recommend first [installing Anaconda](https://docs.anaconda.com/anaconda/install/) and then running the following commands to setup the environment. We also recommend using a machine that has GPU support, specially if you plan to train your own models. A CPU machine can be used if the goal is using pre-trained models to predict posture.
-
-    conda env create -f INFRA/CONDA/deep_postures_gpu_env.yml # for cpu use INFRA/CONDA/deep_postures_cpu_env.yml
-    conda activate deep_postures
+## Dataset
+A brief description of the dataset. How it's collected and how we used it. Details are in [Dataset and Models]({{ site.baseurl }}{% link dataset_and_models.md %}) 
 
 
-Alternatively, you can use conda to install Python 3 and use `pip` to install the following rerquired packages.
-    
-    conda create -n deep_postures python=3.6
-    conda activate deep_postures
-    python -m pip install "tensorflow-gpu>=1.13.0,<2.0" # for cpu use "tensorflow>=1.13.0,<2.0"
-    python -m pip install pandas
-    python -m pip install numpy
-    python -m pip install scipy
-    python -m pip install h5py
+## Models
+A brief introduction to the model(s). What is the architechure and how we trained them. Details are in [Dataset and Models]({{ site.baseurl }}{% link dataset_and_models.md %})
 
-### Quick start:
+## Acknowledgement
 
-1. Add Just the Docs to your Jekyll site's `_config.yml` as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/)
+This work was supported by grant number R01DK114945 from the National Institute of Diabetes and Digestive and Kidney Diseases. It was also supported in part by a Hellman Fellowship, an NSF CAREER Award under award number 1942724, and a gift from VMware. The content is solely the responsibility of the authors and does not necessarily represent the views of any of these organizations. We thank the members of UC San Diego's Database Lab and Center for Networked Systems for their feedback on this work.
 
-```yaml
-remote_theme: just-the-docs/just-the-docs
-```
-
-<small>You must have GitHub Pages enabled on your repo, one or more Markdown files, and a `_config.yml` file. [See an example repository](https://github.com/pmarsceill/jtd-remote)</small>
-
-### Local installation: Use the gem-based theme
-
-1. Install the Ruby Gem
-  ```bash
-  $ gem install just-the-docs
-  ```
-  ```yaml
-  # .. or add it to your your Jekyll site’s Gemfile
-  gem "just-the-docs"
-  ```
-
-2. Add Just the Docs to your Jekyll site’s `_config.yml`
-  ```yaml
-  theme: "just-the-docs"
-  ```
-
-3. _Optional:_ Initialize search data (creates `search-data.json`)
-  ```bash
-  $ bundle exec just-the-docs rake search:init
-  ```
-
-3. Run you local Jekyll server
-  ```bash
-  $ jekyll serve
-  ```
-  ```bash
-  # .. or if you're using a Gemfile (bundler)
-  $ bundle exec jekyll serve
-  ```
-
-4. Point your web browser to [http://localhost:4000](http://localhost:4000)
-
-If you're hosting your site on GitHub Pages, [set up GitHub Pages and Jekyll locally](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll) so that you can more easily work in your development environment.
-
-<!-- ### Configure Just the Docs
-
-
----
-
-## About the project
-
-Just the Docs is &copy; 2017-{{ "now" | date: "%Y" }} by [Patrick Marsceill](http://patrickmarsceill.com). -->
-
-### Models
-
-### Publications
-
-### License
+## License
 
 DeepPostures is distributed by an [Apache-2.0 license](https://github.com/ADALabUCSD/DeepPostures/blob/master/LICENSE).
 

@@ -1,4 +1,12 @@
-## Training Your Own Model
+---
+layout: default
+title: 0. Training Your Own Model
+parent: Advanced Usages
+nav_order: 1
+---
+
+# Training Your Own Model
+
 To train your own model invoke the `train_model.py` as follows:
 
     python train_model.py --pre-processed-dir <pre-processed-dir> --model-checkpoint-path <checkpoint-dir>
